@@ -1,0 +1,31 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * HubSpot GraphQL plugin for Craft CMS 3.x
+ *
+ * HubSpot GraphQL Settings.twig
+ *
+ * @author    45RPM
+ * @copyright Copyright (c) 2020 45RPM
+ * @link      https://www.45rpm.co/
+ * @package   HubspotGraphql
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("fortyfive\\hubspotgraphql\\assetbundles\\hubspotgraphql\\HubspotGraphqlAsset") %}
+
+{{
+    forms.passwordField(
+        {
+            label: 'HubSpot API Key',
+            instructions: 'Enter your HubSpot API Key.',
+            id: 'hubspotKey',
+            name: 'hubspotKey',
+            value: settings['hubspotKey'],
+            required: true
+        }
+    )
+}}

@@ -1,0 +1,44 @@
+{
+    "name": "fortyfive/hubspot-graphql",
+    "description": "This plugin adds a GraphQL definition to have access to the Blog HubSpot API using CraftQL plugin.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "plugin",
+        "craftcms",
+        "craft plugin",
+        "hubspot",
+        "graphql",
+        "hubspot graphql"
+    ],
+    "support": {
+        "docs": "https://github.com/45RPMLLC/hubspot-graphql/blob/master/README.md",
+        "issues": "https://github.com/45RPMLLC/hubspot-graphql/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "45RPM",
+            "homepage": "https://www.45rpm.co/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "hubspot/hubspot-php": "v1.2.7"
+    },
+    "autoload": {
+        "psr-4": {
+          "fortyfive\\hubspotgraphql\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "HubSpot GraphQL",
+        "handle": "hubspot-graphql",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/45RPMLLC/hubspot-graphql/master/CHANGELOG.md",
+        "class": "fortyfive\\hubspotgraphql\\HubspotGraphql"
+    }
+}
