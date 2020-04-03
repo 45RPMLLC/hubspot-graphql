@@ -104,6 +104,7 @@ Next is an example of the GraphQL query that you can write and all the possible 
 
 ## HubSpot GraphQL Roadmap
 
-* Release it
+- [x] Integration with [CraftQL](https://plugins.craftcms.com/craftql) plugin
+- [ ] Integration with CraftCMS GraphQL
 
 From the desk of [45RPM](https://www.45rpm.co/)
