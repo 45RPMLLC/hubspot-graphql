@@ -4,9 +4,6 @@ namespace fortyfive\hubspotgraphql\datasources;
 /**
  *  Class Topics
  *
- *  Expose a static method to make query to the `blogTopics` endpoint
- *  of HubSpot API.
- *
  * @package fortyfive\hubspotgraphql\datasources
  */
 class Topics extends HubspotWrapper

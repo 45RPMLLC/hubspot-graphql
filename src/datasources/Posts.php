@@ -4,9 +4,6 @@ namespace fortyfive\hubspotgraphql\datasources;
 /**
  * Class Posts
  *
- * Expose two static methods to make queries to the `blogPosts` endpoint
- * of HubSpot API.
- *
  * @package fortyfive\hubspotgraphql\datasources
  */
 class Posts extends HubspotWrapper

@@ -8,8 +8,7 @@ use SevenShores\Hubspot;
 /**
  * Class HubspotWrapper
  *
- *  This class only has an static method to create an object that can access
- *  to the HubSpot API.
+ *  A static method to create an object that can access the HubSpot API.
  *
  * @package fortyfive\hubspotgraphql\datasources
  */

@@ -1,8 +1,10 @@
 # HubSpot GraphQL plugin for Craft CMS 3.x
 
-This plugin adds a GraphQL definition to have access to the Blog HubSpot API - important [CraftQL plugin]((https://plugins.craftcms.com/craftql)) is required.
+This plugin adds a Hubspot GraphQL definition to Craft CMS. It allows to query Hubspot data and add it to your existing Craft queries
+making it simpler to gather data from multiple sources as it facilitates integration with javascript frameworks used to build modern websites that heavily rely on GraphQL queries.
 
-![Screenshot](resources/img/plugin-logo.png)
+This plugin uses the HubSpot PHP API client and it allows to query resources from the CMS Blog API (i.e. posts, authors, topics) with more resources becoming available in the future.
+
 
 ## Requirements
 
@@ -24,11 +26,11 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for HubSpot GraphQL.
 
-4. Now in the Control Panel, go to Settings → HubSpot GraphQL and set your [HubSpot Api Key](https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key) 
+4. Now in the Control Panel, go to Settings → HubSpot GraphQL and set your [HubSpot Api Key](https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key)
 
 ## HubSpot GraphQL Overview
 
-Next is an example of the GraphQL query that you can write and all the possible values that you can get.
+Here's an example query with all the possible information you can get.
 ```
 {
   hubspot {
@@ -99,7 +101,7 @@ Next is an example of the GraphQL query that you can write and all the possible 
       }
     }
   }
-} 
+}
 ```
 
 ## HubSpot GraphQL Roadmap

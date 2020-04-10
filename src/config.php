@@ -2,7 +2,7 @@
 /**
  * HubSpot GraphQL plugin for Craft CMS 3.x
  *
- * This plugin adds a GraphQL definition to have access to the Blog HubSpot API - important CraftQL plugin is required.
+ * This plugin adds a GraphQL definition to access HubSpot CMS Blog API
  *
  * @link      https://www.45rpm.co/
  * @copyright Copyright (c) 2020 45RPM
@@ -14,7 +14,7 @@
  * This file exists only as a template for the HubSpot GraphQL settings.
  * It does nothing on its own.
  *
- * Don't edit this file, instead copy it to 'craft/config' as 'hub-spot-graph-ql.php'
+ * Don't edit this file, instead copy it to 'craft/config' as 'hubspot-graphql.php'
  * and make your changes there to override default settings.
  *
  * Once copied to 'craft/config', this file will be multi-environment aware as
